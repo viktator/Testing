@@ -9,6 +9,10 @@ body {
   background: #E8E8E8;
 
 }
+.text-r {
+  text-align: right;
+  padding-right: 12px;
+}
 .logo {
   text-transform: uppercase;
   color: #000;
@@ -35,6 +39,11 @@ body {
     box-shadow: 15px 0 12px -12px rgba(0,0,0,.2);
     .left{
       text-align: left;
+      h3 {
+        text-align: right;
+        padding-right: 12px;
+      }
+
     }
   }
   .right_box_info {
@@ -147,6 +156,7 @@ body {
 
   }
 }
+
 
 .empty_box {
   width: 250px;
